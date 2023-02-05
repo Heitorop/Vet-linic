@@ -1,3 +1,18 @@
-body {
-    margin: 0;
+@font-face {
+  font-family: 'Rimouski';
+  src: local('Rimouski SemiBold'), local('Rimouski-SemiBold'),
+    url('../fonts/RimouskiSb-Regular.woff2') format('woff2'),
+    url('../fonts/RimouskiSb-Regular.woff') format('woff'),
+    url('../fonts/RimouskiSb-Regular.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
+
+@import './variables.scss';
+
+@import 'normalize.scss';
+
+@import 'base.scss';
+
+@import './components/top-panel.scss';
+@import './components/about.scss';
